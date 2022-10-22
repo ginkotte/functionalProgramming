@@ -41,8 +41,8 @@
 (println (format "Funcao empty: Valor: %s; Resultado: %s"  "empty? ()" (str (empty? ()))))
 (println (format "Funcao empty: Valor: %s; Resultado: %s"  "empty? (a)" (str (empty? '("a")))))
 
-(println (format "Funcao count: Valor: %s; Resultado: %s"  "[1 2 3 4 5]" (str (count [1 2 3 4 5]))))
-(println (format "Funcao count: Valor: %s; Resultado: %s"  "[12 32 123]" (str (count [12 32 123]))))
+(println (format "Funcao count: Valor: %s; Resultado: %s"  "[1 2 3]" (str (count [1 2 3]))))
+(println (format "Funcao count: Valor: %s; Resultado: %s"  "[15 20 25 `a`]" (str (count [15 20 25 "a"]))))
 
 (println (format "Funcao char: Valor: %s; Resultado: "  "200") (char 200))
 (println (format "Funcao char: Valor: %s; Resultado: "  "100") (char 100))
